@@ -3,27 +3,28 @@
     --color-primario_link: #FFFFFF;
 }
 
-
-
 *{
+    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 html{
-    font-size: 62.5%;
+    font-size: 62.5%;    
 }
 
 body{
-    width: 100%;
     max-width: 60rem;   
+    min-width: 32rem;
     font-family: "Nerko One", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
 /* contenido del nav */
+
+
 
 .navbar {
     padding: 1rem 0rem;
@@ -189,4 +190,26 @@ body{
 
 .pc-icon_secundario img{
     width: 2.5rem;
+}
+
+.footer-main{
+    max-height: 50rem; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #16161C;
+    color: white;
+}
+
+.footer-list{
+
+    width: 12rem;
+    margin: 1rem auto ;
+    font-size: 1.6rem;
+    list-style: none;
+}
+
+.list-container{
+    list-style: none;
+    margin-top: 1rem;
 }
