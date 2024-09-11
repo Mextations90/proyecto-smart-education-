@@ -1,10 +1,9 @@
 :root{
     --color-primary: #BF2C38;
-    --color-primario_link: #FFFFFF;
+    
 }
 
 *{
-    
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -12,204 +11,50 @@
 
 html{
     font-size: 62.5%;    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body{
-    max-width: 60rem;   
+    max-width: 42rem;
     min-width: 32rem;
-    font-family: "Nerko One", cursive;
-    font-weight: 400;
-    font-style: normal;
+
 }
 
-/* contenido del nav */
+/* -------- container header -------- */
 
-
-
-.navbar {
-    padding: 1rem 0rem;
+.container-nav{
     display: flex;
-    flex-direction: column;
-    align-content: center;    
-    align-items: center;
-    font-size: 2rem;
-    background-color: var(--color-primary);
-    color: white;
-}
-
-.nav-logo{
-    display: block;
-    max-width: 10rem;
-    border-radius: 1.0rem;
-}
-
-.nav-list{
-    display: flex;
-    flex-direction: column;
-    list-style: none;    
-    
-}
-
-.nav-items{
-    padding: 2rem;
-    align-self: center;
-    
-}
-
-.nav-unic{
-    padding: 1rem 2rem;
-    border: 0.1rem solid white;
-    border-radius: 1rem;
-
-}
-
-/* container del main */
-
-.intro-section{  
-    height: 40rem;
-    padding-top: 8rem;
+    justify-content: center;
     text-align: center;
+    flex-direction: column;
     background-color: var(--color-primary);
-    color: white;    
-    
-}
-
-.title{
-    font-size: 4rem;
-    margin-bottom: 2rem ;
-}
-
-.lead{
     font-size: 2rem;
-    padding: 0 2rem;
-}
-
-.feature-section{
-    margin: -10rem auto 0 auto;
-    width: 80%;
-    font-size: 1.5rem;
-    
-}
-
-.feature-image{
-    border-radius: 2rem;
-    width: 100%;       
-}
-
-.feature-title, .feature-description{
-    margin: 1rem 0;
-}
-
-.feature-button{
-    
-    margin-top:3rem ;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: var(--color-primary);
     color: white;
-    border: 0.1rem solid ;
-    border-radius: 1rem;
 }
 
-.feature-title{
-    text-align: center;    
+.container-nav img{
+    width: 25%;
+    margin: 2rem 0;
+    
 }
 
-.feature-button{
-    display: block;
+.container-nav li{
+    list-style: none;
     margin: 2rem 0;
 }
 
-#button-center{
-    margin: auto;
+.title-header{
+    margin: 5rem 0 10rem 0;
+    border: 1px solid black;
 }
 
-
-.container-link{
-    margin: 5rem auto 0 auto;
-    padding-top: 5rem ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #E0E0E0;
-}
-
-.intro-section_link{
-    
-    text-align: center;
+.title-header h1{
     font-size: 4rem;
-}
-
-.container-pc{
-    width: 20rem;
-    height: auto;
-    margin: 10rem auto;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    border: 0.1rem solid var(--color-primario_link);
-    border-radius: 10%;
-    background-color: var(--color-primario_link);
-    box-shadow: 0 0.1rem 1rem gray;    
 
 }
 
-.pc-icon_primario{
-    position: relative;
-    margin: 0 auto;
-    width: 8rem;
-    height: 8rem;
-    transform:translateY(-50%);
-    border: 0.1rem solid var(--color-primary);
-    background-color: var(--color-primary);
-    border-radius: 50%;
+.title-header p{
+    margin-top: 3rem;
 }
 
-.pc-icon_primario img{
-    display: block;   
-    margin: 1.8rem auto;
-    width: 4rem;    
-
-}
-
-.pc-description{
-    margin: -2rem  0.5rem 3rem 0.5rem;
-    font-size: 2rem;
-}
-
-.pc-icon_secundario{
-    width: 80%;
-    height: auto;
-    margin: 0.3rem auto -3.1rem auto;   
-    border: 0.1rem solid var(--color-primario_link);
-    border-radius: 0 0 2rem 2rem;
-    background-color: var(--color-primario_link);
-    box-shadow: 0 -0.1rem 1rem gray;
-}
-
-.pc-icon_secundario img{
-    width: 2.5rem;
-}
-
-.footer-main{
-    max-height: 50rem; 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background-color: #16161C;
-    color: white;
-}
-
-.footer-list{
-
-    width: 12rem;
-    margin: 1rem auto ;
-    font-size: 1.6rem;
-    list-style: none;
-}
-
-.list-container{
-    list-style: none;
-    margin-top: 1rem;
-}
+/* -------- container main -------- */
