@@ -1,6 +1,6 @@
 :root{
     --color-primary: #BF2C38;
-    
+    --color-primario_link: #FFFFFF;
 }
 
 *{
@@ -15,7 +15,7 @@ html{
 }
 
 body{
-    max-width: 42rem;
+    /* max-width: 42rem; */
     min-width: 32rem;
 
 }
@@ -45,7 +45,6 @@ body{
 
 .title-header{
     margin: 5rem 0 10rem 0;
-    border: 1px solid black;
 }
 
 .title-header h1{
@@ -58,3 +57,37 @@ body{
 }
 
 /* -------- container main -------- */
+
+/* contaier-primary */
+
+.container-primary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -3rem;
+}
+
+.card-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-container img{
+    width: 80%;
+    height: 20rem;
+    align-self: center;
+    border-radius: 2rem;
+}
+
+.card-container h2, .card-container p{
+    width: 80%;
+    margin:1rem auto;
+    font-size: 2rem;
+}
+
+.card-container button{
+    margin-left: 10%;
+    width: 20%;
+}
